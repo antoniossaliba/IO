@@ -1,3 +1,5 @@
+package IO;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class FileReadFileWrite {
 
         while(scanner.hasNext()) {
 
-            fw.write(scanner.next());
+            fw.write(scanner.next() + "\n");
 
         }
 
